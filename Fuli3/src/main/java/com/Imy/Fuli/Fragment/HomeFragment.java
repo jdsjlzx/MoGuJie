@@ -1,40 +1,26 @@
 package com.Imy.Fuli.Fragment;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.support.v4.util.LogWriter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewTreeObserver;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.Imy.Fuli.Activity.HomeActivity;
-import com.Imy.Fuli.Adapter.HomeFragmentListAdapter;
 import com.Imy.Fuli.Adapter.HomeFragmentViewPagerAdapter;
-import com.Imy.Fuli.Holder.PagerHolder;
 import com.Imy.Fuli.R;
 import com.Imy.Fuli.View.FragmentViewPager;
 import com.Imy.Fuli.View.HorizontalListView;
 import com.Imy.Fuli.View.LoadingPage;
-import com.Imy.Fuli.View.PagerSlidingTabStrip;
-import com.Imy.Fuli.View.ScrollViewHead;
-import com.Imy.Fuli.View.SuspendListView;
 import com.Imy.Fuli.View.SuspendScrollView;
 import com.Imy.Fuli.common.Constant;
 import com.Imy.Fuli.manager.ThreadManager;
 import com.Imy.Fuli.tools.LogUtils;
 import com.Imy.Fuli.tools.UiUtils;
-
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by user on 2015/11/9.
@@ -102,6 +88,7 @@ public class HomeFragment extends BaseFragment {
                         SystemClock.sleep(1000);//模拟请求数据
                         mSuspendScrollView.completeRefresh();
 
+
                     }
                 });
             }
@@ -118,6 +105,17 @@ public class HomeFragment extends BaseFragment {
         mViewPager.setOffscreenPageLimit(2);//设置预加载 防止切换时状态丢失
         setViewpagerHeight(mViewPager);
         initIndicator();
+
+        mViewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+
+            @Override
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+                ((OrderAdapter)mHorizontalListView.getAdapter()).setCurOrderItem(position);
+            }
+
+        });
+
         return view;
     }
 
@@ -129,7 +127,7 @@ public class HomeFragment extends BaseFragment {
                 if (!isInit) {
                     int top = mHorizontalListView.getTop();
                     int height = mHorizontalListView.getHeight();
-//                    mSupListView.layout(0, top, mSupListView.getWidth(), top + height);
+                    //mSupListView.layout(0, top, mSupListView.getWidth(), top + height);
                 }
             }
         });

@@ -7,11 +7,9 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.Imy.Fuli.R;
-import com.Imy.Fuli.tools.UiUtils;
 
 /**
  * Created by user on 2015/11/23.
@@ -73,5 +71,10 @@ public class OrderAdapter extends BaseAdapter {
         }
         return convertView;
 
+    }
+
+    public void setCurOrderItem(int position) {
+        this.curOrderItem = position;
+        notifyDataSetChanged();
     }
 }

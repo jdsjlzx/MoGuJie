@@ -13,6 +13,7 @@ import android.widget.RadioGroup;
 import com.Imy.Fuli.Fragment.BaseFragment;
 import com.Imy.Fuli.Fragment.FragmentFactory;
 import com.Imy.Fuli.R;
+import com.Imy.Fuli.View.NoScrollViewPager;
 import com.Imy.Fuli.tools.LogUtils;
 import com.nostra13.universalimageloader.utils.L;
 
@@ -24,7 +25,7 @@ import java.io.InputStream;
 public class HomeActivity extends BaseActivity implements View.OnClickListener {
     public static final int TAB_HOME = 0;
     public static final int TAB_ME = 1;
-    private ViewPager mViewPager;
+    private NoScrollViewPager mViewPager;
     private String[] tab_names = new String[]{"首页","我的"};  // 标签的名字
     private static final String TEST_FILE_NAME = "Universal Image Loader @#&=+-_.,!()~'%20.png";
     //2个radiobutton
@@ -43,7 +44,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
             // 把文件复制到SD卡
             copyTestImageToSdCard(testImageOnSdCard);
         }
-        mViewPager = (ViewPager) findViewById(R.id.vp_content);
+        mViewPager = (NoScrollViewPager) findViewById(R.id.vp_content);
         //获取RadioButton对象
         mHomeButton = (RadioButton) findViewById(R.id.rb_home);
         mMeButton = (RadioButton) findViewById(R.id.rb_me);
