@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDack"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/home_et"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@mipmap/waimai_actionbar_search_home_title"
+            android:editable="false"
+            android:paddingBottom="4dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="4dp"
+            android:text="   即使搜了也是没资源滴"
+            android:textColor="#DCDCDC"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <com.Imy.Fuli.View.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/radio_button_bg"
+        android:orientation="horizontal" >
+
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/tab_style"
+            android:drawableTop="@drawable/tab_icon_rank_noraml"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/tab_style"
+            android:drawableTop="@drawable/tab_icon_me_noraml"
+            android:text="我的" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

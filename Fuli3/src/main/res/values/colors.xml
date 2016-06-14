@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 作用于次要的文字提示 -->
+    <color name="white_text">#ffffff</color>
+
+    <!-- 作用于次要的文字提示 -->
+    <color name="black_text">#000000</color>
+    <color name="colorPrimary">#FF2D4B</color>
+    <color name="radio_button_bg">#FFFFFF</color>
+    <color name="colorPrimaryDack">#FF8698</color>
+    <color name="colorPrimaryDack2">#EC407A</color>
+
+    <color name="visible_color1">#FF6C00</color>
+    <color name="status_pink">#880e4f</color>        <!-- 900 -->
+    <color name="action_pink">#e91e63</color>        <!-- 500 -->
+    <color name="window_bg_pink">#f06292</color>     <!-- 300 -->
+    <color name="navigation_pink">#c2185b</color>    <!-- 700 -->
+    <color name="bg_pink">#ec407a</color>    <!-- 400 -->
+    <color name="fg_pink">#fce4ec</color>    <!-- 50 -->
+    <color name="control_normal_pink">#fce4ec</color>    <!-- 50 -->
+    <color name="control_highlight_pink">#f48fb1</color>    <!-- 200 -->
+    <color name="control_activated_pink">#c51162</color>    <!-- A700 -->
+    <color name="button_normal_pink">#ec407a</color> <!-- 400 -->
+    <color name="actionbar_bg">@color/app_main_red</color>
+    <color name="app_main_red">#FFE3493D</color>
+    <color name="transparent_black">#33000000</color>
+    <color name="color_gray_eaeaea">#eaeaea</color>
+    <color name="white">#ffffff</color>
+    <color name="color_black_333333">#333333</color>
+    <color name="color_grey_999999">#999999</color>
+    <color name="color_black_d9d9d9">#d9d9d9</color>
+    <color name="color_purple_bd6aff">#bd6aff</color>
+    <color name="GreyWhite_has_alpha">#66FAFAFA</color>
+    <color name="transparent">#00000000</color>
+    <color name="action_bar_tittle_color_555555">#555555</color>
+</resources>

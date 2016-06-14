@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_6110630988854ab79c63d4b353ce5696173bd7cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-2.4.0_19702cbd0e9be9d3ac48e5c518e35220e2941b65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_018c67abf0618eaa4867db0caf55489edacbd2d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_9cf31a4a699c8bb797c5457f2c9d871d5a958435/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/libs/xUtils-2.6.14.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/2/xUtils-2.6.14_7fd36556547705a6de8c2a158c84fa183fed747a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_e3efb8d30efa08fdaae83743402491e60a345d2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.4_b8654e2c14ccda34193edf850f2517713b45de8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="18fd6e934be2a39ce78778df9805c89972e69363">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_823d3aeba4b05b835e3e1b001808592ef22d57a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="190c5661ecd2e33528a7965a2a348eb59dea4e53">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bb627eaac559fd0e11da5bb7e9409886bcbc9dc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_328c14fc59307f7ceb36af38b9372455d7148ffc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_521e5b2f65b854a6811e79c4a77a135a502ef44c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lizhixian/Documents/Android/studio_sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/lizhixian/Documents/AndroidStudioProjects/mogujie/Fuli3/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_669049aa07ab3f0c542f8a7cae68f12e8efdce62/classes.dex" />
+    </item>
+
+</items>

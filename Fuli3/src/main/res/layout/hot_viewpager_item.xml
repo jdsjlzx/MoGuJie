@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hot_viewpager_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--<FrameLayout-->
+            <!--android:id="@+id/hot_emptyHeadview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--</FrameLayout>-->
+        <com.Imy.Fuli.View.MultiColumnListView
+            xmlns:pla="http://schemas.android.com/apk/res-auto"
+            android:divider="#ffffff"
+            android:dividerHeight="3dp"
+            android:id="@+id/hot_viewpage_listview"
+            android:layout_width="match_parent"
+            pla:plaColumnNumber="2"
+            pla:plaLandscapeColumnNumber="3"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

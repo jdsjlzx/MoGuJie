@@ -1,0 +1,46 @@
+<resources>>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+    <style name="tab_style">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:button">@null</item>
+    <!-- 上面这一句可以把radiobutton的图标去掉 -->
+    <item name="android:gravity">center_horizontal|bottom</item>
+    <item name="android:layout_gravity">bottom</item>
+    <item name="android:textColor">@drawable/tab_textcolor_selector</item>
+    <item name="android:textSize">13sp</item>
+    </style>
+    <style name="horizontal_gray_divider">
+        <item name="android:layout_height">2px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">#d9d9d9</item>
+    </style>
+
+    <!--<style name="StyledIndicators" parent="MyAppTheme">-->
+        <!--<item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>-->
+    <!--</style>-->
+
+    <!--<style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">-->
+        <!--<item name="android:background">@drawable/tab_indicator</item>-->
+        <!--<item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>-->
+        <!--<item name="android:textSize">14sp</item>-->
+        <!--<item name="android:dividerPadding">8dp</item>-->
+        <!--<item name="android:showDividers">middle</item>-->
+        <!--<item name="android:paddingLeft">10dp</item>-->
+        <!--<item name="android:paddingRight">10dp</item>-->
+        <!--<item name="android:fadingEdge">horizontal</item>-->
+        <!--<item name="android:fadingEdgeLength">8dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">-->
+        <!--<item name="android:typeface">monospace</item>-->
+        <!--<item name="android:textColor">@drawable/selector_tabtext</item>-->
+    <!--</style>-->
+
+
+</resources>
